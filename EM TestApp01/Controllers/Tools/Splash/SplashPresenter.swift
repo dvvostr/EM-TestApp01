@@ -12,11 +12,10 @@ final class SplashPresenter: SplashPresenterDescription {
     private lazy var animator: SplashAnimatorDescription = SplashAnimator(window: window)
     
     private lazy var window: UIWindow = {
-        return splashWindow(level: .normal + 100, rootViewController: SplashViewController.fromNib(), isHiddenLogo: false)
+        return splashWindow(level: .normal + 100, rootViewController: SplashViewController.fromNib())
     }()
-    func splashWindow(level: UIWindow.Level, rootViewController: SplashViewController?, isHiddenLogo: Bool = false) -> UIWindow {
+    func splashWindow(level: UIWindow.Level, rootViewController: SplashViewController?) -> UIWindow {
         let scene = Layout.keyWindow?.windowScene
-        rootViewController?.isHiddenLogo = isHiddenLogo
         let window = if let scene = scene { UIWindow(windowScene: scene) } else { UIWindow() }
         window.frame = CGRect(x: 0,  y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         window.rootViewController = rootViewController
