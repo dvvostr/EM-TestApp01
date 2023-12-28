@@ -1,11 +1,22 @@
 import UIKit
 import StudiqCore
 import StudiqUI
+import EMCustomPkg
 
-@IBDesignable
-class BookingTouristList: CustomXibView {
-    
-    public var items: [BookingTouristItem]? {
+class RoomSelectViewController: TitledBaseViewController {
+
+    let items_ = [
+        "Lorem ipsum dolor sit amet.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    ]
+    public var hotel: HotelItem?
+    public var items: [RoomSelectListItem]? {
         didSet {
             self.collectionView?.reloadData()
             self.collectionView?.collectionViewLayout.invalidateLayout()
@@ -18,19 +29,21 @@ class BookingTouristList: CustomXibView {
             self.collectionView?.backgroundColor = UIColor.clear
         }
     }
-    override func setupView() {
-        super.setupView()
+    override func setup() {
+        super.setup()
+        view.backgroundColor = UIColor.Preset.backgroundLight
         setupCollectionView()
         self.collectionView?.reloadData()
     }
-
-    func loadData(items: [BookingTouristItem], completion: @escaping OnDataResult) {
+    
+    func loadData(hotel: HotelItem?, items: [RoomSelectListItem], completion: @escaping OnDataResult) {
+        self.hotel = hotel
         self.items = items
         completion(DataResult.success, nil)
     }
 }
 
-extension BookingTouristList: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension RoomSelectViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     private func setupCollectionView() {
         collectionView?.dataSource = self
         collectionView?.delegate = self
@@ -73,14 +86,27 @@ extension BookingTouristList: UICollectionViewDataSource, UICollectionViewDelega
         return items?.count ?? 0
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BookingTouristViewCell", for: indexPath) as! BookingTouristViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RoomSelectViewCell", for: indexPath) as! RoomSelectViewCell
         cell.item = items?[indexPath.row]
         cell.onItemClick = { obj in
-    //
+            let controller = BookingViewController.fromNib()
+            controller.captionText = "Бронирование".localized
+            if let item = obj as? RoomSelectListItem {
+                controller.loadData(hotel: self.hotel?.clone(), item: item.clone()) { result, data in
+                    if result.isSuccess {
+                        self.navigationController?.pushViewController(controller, animated: true)
+                    }
+                }
+            }
         }
         return cell
     }
-
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        coordinator.animate(alongsideTransition: { context in
+            self.collectionView?.collectionViewLayout.invalidateLayout()
+        }, completion: nil)
+    }
 
 
 }

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "UIView.getContraints(attributes:relations:isActive:):UIView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.constraints">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookingInfoView.setValue(labelCaption:labelValue:caption:value:):BookingInfoView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.conteinerView?.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageSlideshow.currentPage.didset:ImageSlideshow.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BookingInfoView.currentHeigth.getter:BookingInfoView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.conteinerView?.bounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookingInfoView.item.didset:BookingInfoView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomSliderIndicatorControl.layoutSubviews():CustomSliderIndicatorControl.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CustomButton.invalidate():CustomButton.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HotelFuturesView.setupView():HotelFuturesView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TitledBaseViewController.setup():TitledBaseViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UIView.removeContraints(attributes:relations:isActive:):UIView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getContraints(attributes: attributes, relations: relations)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageSlideshow.layoutPageControl():ImageSlideshow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageIndicatorView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomSliderIndicatorControl.controlRoundValue.setter:CustomSliderIndicatorControl.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CustomSliderIndicatorControl.layoutButtonsOnStackView():CustomSliderIndicatorControl.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RoomSelectViewCell.buttonChoise.didset:RoomSelectViewCell.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

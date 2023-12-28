@@ -1,11 +1,7 @@
-//
-//  BookingTouristViewCell.swift
-//  EM TestApp01
-//
-//  Created by Дмитрий Востриков on 29.12.2023.
-//
-
 import UIKit
+import StudiqCore
+import StudiqUI
+import EMCustomPkg
 
 class BookingTouristViewCell: UICollectionViewCell {
 
@@ -13,5 +9,11 @@ class BookingTouristViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    public var onItemClick: ObjectEvent?
+    
+    public var item: BookingTouristItem? {
+        didSet {
+        }
+    }
+    
 }
