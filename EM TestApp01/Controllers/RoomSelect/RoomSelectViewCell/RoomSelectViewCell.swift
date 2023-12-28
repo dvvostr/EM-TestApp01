@@ -38,8 +38,8 @@ class RoomSelectViewCell: UICollectionViewCell {
             viewTagList?.tagBackgroundColor = UIColor.Preset.lightGray
             viewTagList?.cornerRadius = 5.0
             viewTagList?.textColor = UIColor.Preset.textSubtitle
-            viewTagList?.textFont = Config.Fonts.Font(ofSize: 16, width: .semibold)
-            viewTagList?.paddingY = 5.0
+            viewTagList?.textFont = Config.Fonts.Font(ofSize: 16, width: .medium)
+            viewTagList?.paddingY = 8.0
             viewTagList?.paddingX = 12.0
             viewTagList?.marginX = 8.0
             viewTagList?.marginY = 8.0
@@ -55,7 +55,7 @@ class RoomSelectViewCell: UICollectionViewCell {
     }
     @IBOutlet public weak var labelRoomPrice: UILabel? {
         didSet {
-            labelRoomPrice?.font = Config.Fonts.Font(ofSize: 30.0)
+            labelRoomPrice?.font = Config.Fonts.Font(ofSize: 30.0, width: .medium)
             labelRoomPrice?.textColor = UIColor.Preset.text
         }
     }
@@ -68,11 +68,6 @@ class RoomSelectViewCell: UICollectionViewCell {
 
     @IBOutlet public weak var buttonChoise: CustomButton? {
        didSet {
-           buttonChoise?.cornerRadius = 15
-           buttonChoise?.normalBorderColor = UIColor.Preset.tint
-           buttonChoise?.selectedBackgroundColor = UIColor.Preset.tint.withAlphaComponent(0.45)
-           buttonChoise?.normalForegroundColor = UIColor.Preset.background
-           buttonChoise?.selectedForegroundColor = UIColor.Preset.background
        }
     }
     override func awakeFromNib() {
@@ -94,7 +89,7 @@ class RoomSelectViewCell: UICollectionViewCell {
             })
             viewSlideShow?.setImageInputs(imageSource)
             labelRoomTitle?.text = item?.title
-            labelRoomPrice?.text = (item?.price ?? 0.0) > 0 ? "\(item!.price) ₽" : ""
+            labelRoomPrice?.text = (item?.price ?? 0.0) > 0 ? "\(item!.price.asCurrencyCeilString) ₽" : ""
             labelRoomPriceDesc?.text = item?.priceDesc ?? ""
             viewTagList?.removeAllTags()
             viewTagList?.addTags(item?.tags ?? [])

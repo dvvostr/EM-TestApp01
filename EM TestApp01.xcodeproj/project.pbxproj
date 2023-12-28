@@ -24,6 +24,41 @@
 		DFE4499D2B3B2FE300F19F9C /* SplashAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE4499C2B3B2FE300F19F9C /* SplashAnimator.swift */; };
 		DFE449AA2B3B34EF00F19F9C /* StudiqCore in Frameworks */ = {isa = PBXBuildFile; productRef = DFE449A92B3B34EF00F19F9C /* StudiqCore */; };
 		DFE449B02B3B371900F19F9C /* StudiqUI in Frameworks */ = {isa = PBXBuildFile; productRef = DFE449AF2B3B371900F19F9C /* StudiqUI */; };
+		DFE449C02B3B465700F19F9C /* EMCustomPkg in Frameworks */ = {isa = PBXBuildFile; productRef = DFE449BF2B3B465700F19F9C /* EMCustomPkg */; };
+		DFE449C32B3B549E00F19F9C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449C22B3B549E00F19F9C /* UIColor.swift */; };
+		DFE449D32B3C816D00F19F9C /* HotelInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449D22B3C816D00F19F9C /* HotelInfoView.swift */; };
+		DFE449D62B3C818200F19F9C /* HotelInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE449D52B3C818200F19F9C /* HotelInfoView.xib */; };
+		DFE449D92B3C83D700F19F9C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449D82B3C83D700F19F9C /* RatingView.swift */; };
+		DFE449DB2B3C83E100F19F9C /* RatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE449DA2B3C83E100F19F9C /* RatingView.xib */; };
+		DFE449DE2B3C989300F19F9C /* HotelFuturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449DD2B3C989300F19F9C /* HotelFuturesView.swift */; };
+		DFE449E02B3C98A100F19F9C /* HotelFuturesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE449DF2B3C98A100F19F9C /* HotelFuturesView.xib */; };
+		DFE449E22B3C99BB00F19F9C /* HotelFutureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449E12B3C99BB00F19F9C /* HotelFutureItem.swift */; };
+		DFE449E62B3CA99D00F19F9C /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449E42B3CA99D00F19F9C /* RoomSelectViewController.swift */; };
+		DFE449E72B3CA99D00F19F9C /* RoomSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE449E52B3CA99D00F19F9C /* RoomSelectViewController.xib */; };
+		DFE449E92B3D9A9F00F19F9C /* RoomSelectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449E82B3D9A9F00F19F9C /* RoomSelectViewCell.swift */; };
+		DFE449EB2B3D9E0C00F19F9C /* RoomSelectListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449EA2B3D9E0C00F19F9C /* RoomSelectListItem.swift */; };
+		DFE449EE2B3D9EC200F19F9C /* RoomSelectViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE449ED2B3D9EC200F19F9C /* RoomSelectViewCell.xib */; };
+		DFE449F52B3D9FA000F19F9C /* HotelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE449F42B3D9FA000F19F9C /* HotelItem.swift */; };
+		DFE44A082B3DB1A600F19F9C /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449F62B3DB1A600F19F9C /* SF-Pro-Display-Bold.otf */; };
+		DFE44A092B3DB1A600F19F9C /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449F72B3DB1A600F19F9C /* SF-Pro-Display-RegularItalic.otf */; };
+		DFE44A0A2B3DB1A600F19F9C /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449F82B3DB1A600F19F9C /* SF-Pro-Display-BlackItalic.otf */; };
+		DFE44A0B2B3DB1A600F19F9C /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449F92B3DB1A600F19F9C /* SF-Pro-Display-Light.otf */; };
+		DFE44A0C2B3DB1A600F19F9C /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FA2B3DB1A600F19F9C /* SF-Pro-Display-HeavyItalic.otf */; };
+		DFE44A0D2B3DB1A600F19F9C /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FB2B3DB1A600F19F9C /* SF-Pro-Display-Regular.otf */; };
+		DFE44A0E2B3DB1A600F19F9C /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FC2B3DB1A600F19F9C /* SF-Pro-Display-SemiboldItalic.otf */; };
+		DFE44A0F2B3DB1A600F19F9C /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FD2B3DB1A600F19F9C /* SF-Pro-Display-Black.otf */; };
+		DFE44A102B3DB1A600F19F9C /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FE2B3DB1A600F19F9C /* SF-Pro-Display-Heavy.otf */; };
+		DFE44A112B3DB1A600F19F9C /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE449FF2B3DB1A600F19F9C /* SF-Pro-Display-Ultralight.otf */; };
+		DFE44A122B3DB1A600F19F9C /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A002B3DB1A600F19F9C /* SF-Pro-Display-UltralightItalic.otf */; };
+		DFE44A132B3DB1A600F19F9C /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A012B3DB1A600F19F9C /* SF-Pro-Display-Medium.otf */; };
+		DFE44A142B3DB1A600F19F9C /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A022B3DB1A600F19F9C /* SF-Pro-Display-MediumItalic.otf */; };
+		DFE44A152B3DB1A600F19F9C /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A032B3DB1A600F19F9C /* SF-Pro-Display-BoldItalic.otf */; };
+		DFE44A162B3DB1A600F19F9C /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A042B3DB1A600F19F9C /* SF-Pro-Display-LightItalic.otf */; };
+		DFE44A172B3DB1A600F19F9C /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A052B3DB1A600F19F9C /* SF-Pro-Display-Semibold.otf */; };
+		DFE44A182B3DB1A600F19F9C /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A062B3DB1A600F19F9C /* SF-Pro-Display-ThinItalic.otf */; };
+		DFE44A192B3DB1A600F19F9C /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A072B3DB1A600F19F9C /* SF-Pro-Display-Thin.otf */; };
+		DFE44A1E2B3DC64600F19F9C /* BookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE44A1C2B3DC64600F19F9C /* BookingViewController.xib */; };
+		DFE44A1F2B3DC64600F19F9C /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE44A1D2B3DC64600F19F9C /* BookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +83,42 @@
 		DFE4499A2B3B2FC500F19F9C /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		DFE4499C2B3B2FE300F19F9C /* SplashAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimator.swift; sourceTree = "<group>"; };
 		DFE449A72B3B34B000F19F9C /* StudiqCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StudiqCore; path = ../../../../../iOS/Packages/Studiq.Core/StudiqCore; sourceTree = "<group>"; };
-		DFE449AE2B3B370C00F19F9C /* StudiqUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StudiqUI; path = ../../../../../iOS/Packages/Studiq.UI/StudiqUI; sourceTree = "<group>"; };
-		DFE449B12B3B373700F19F9C /* EMCustomPkg */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EMCustomPkg; path = ../../Packages/EMCustomPkg; sourceTree = "<group>"; };
+		DFE449B82B3B3DD300F19F9C /* EMCustomPkg */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EMCustomPkg; path = ../../Packages/EMCustomPkg; sourceTree = "<group>"; };
+		DFE449B92B3B3DE200F19F9C /* StudiqUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StudiqUI; path = ../../../../../iOS/Packages/Studiq.UI/StudiqUI; sourceTree = "<group>"; };
+		DFE449C22B3B549E00F19F9C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		DFE449D22B3C816D00F19F9C /* HotelInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelInfoView.swift; sourceTree = "<group>"; };
+		DFE449D52B3C818200F19F9C /* HotelInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelInfoView.xib; sourceTree = "<group>"; };
+		DFE449D82B3C83D700F19F9C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		DFE449DA2B3C83E100F19F9C /* RatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingView.xib; sourceTree = "<group>"; };
+		DFE449DD2B3C989300F19F9C /* HotelFuturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelFuturesView.swift; sourceTree = "<group>"; };
+		DFE449DF2B3C98A100F19F9C /* HotelFuturesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelFuturesView.xib; sourceTree = "<group>"; };
+		DFE449E12B3C99BB00F19F9C /* HotelFutureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelFutureItem.swift; sourceTree = "<group>"; };
+		DFE449E42B3CA99D00F19F9C /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
+		DFE449E52B3CA99D00F19F9C /* RoomSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomSelectViewController.xib; sourceTree = "<group>"; };
+		DFE449E82B3D9A9F00F19F9C /* RoomSelectViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewCell.swift; sourceTree = "<group>"; };
+		DFE449EA2B3D9E0C00F19F9C /* RoomSelectListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectListItem.swift; sourceTree = "<group>"; };
+		DFE449ED2B3D9EC200F19F9C /* RoomSelectViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomSelectViewCell.xib; sourceTree = "<group>"; };
+		DFE449F42B3D9FA000F19F9C /* HotelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelItem.swift; sourceTree = "<group>"; };
+		DFE449F62B3DB1A600F19F9C /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		DFE449F72B3DB1A600F19F9C /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		DFE449F82B3DB1A600F19F9C /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		DFE449F92B3DB1A600F19F9C /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		DFE449FA2B3DB1A600F19F9C /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		DFE449FB2B3DB1A600F19F9C /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		DFE449FC2B3DB1A600F19F9C /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		DFE449FD2B3DB1A600F19F9C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		DFE449FE2B3DB1A600F19F9C /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		DFE449FF2B3DB1A600F19F9C /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		DFE44A002B3DB1A600F19F9C /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		DFE44A012B3DB1A600F19F9C /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		DFE44A022B3DB1A600F19F9C /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		DFE44A032B3DB1A600F19F9C /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		DFE44A042B3DB1A600F19F9C /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		DFE44A052B3DB1A600F19F9C /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		DFE44A062B3DB1A600F19F9C /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		DFE44A072B3DB1A600F19F9C /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		DFE44A1C2B3DC64600F19F9C /* BookingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingViewController.xib; sourceTree = "<group>"; };
+		DFE44A1D2B3DC64600F19F9C /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +128,7 @@
 			files = (
 				DFE449B02B3B371900F19F9C /* StudiqUI in Frameworks */,
 				9886F1B736CC6310EC6F334A /* Pods_EM_TestApp01.framework in Frameworks */,
+				DFE449C02B3B465700F19F9C /* EMCustomPkg in Frameworks */,
 				DFE449AA2B3B34EF00F19F9C /* StudiqCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +220,9 @@
 		DFD4D74F2B3B14CF004D48D1 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				DFE449DC2B3C987D00F19F9C /* HotelFuturesView */,
+				DFE449D72B3C83C600F19F9C /* RatingView */,
+				DFE449D42B3C817300F19F9C /* HotelInfoView */,
 				DFD4D7502B3B14EB004D48D1 /* Controls */,
 			);
 			path = Custom;
@@ -165,6 +238,7 @@
 		DFD4D7512B3B14F7004D48D1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DFE449C22B3B549E00F19F9C /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -180,6 +254,8 @@
 		DFD4D7532B3B153C004D48D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DFE44A1B2B3DC64600F19F9C /* Booking */,
+				DFE449E32B3CA98400F19F9C /* RoomSelect */,
 				DFD4D7722B3B289D004D48D1 /* Tools */,
 				DFD4D75A2B3B15A3004D48D1 /* Home */,
 			);
@@ -210,6 +286,7 @@
 		DFD4D7562B3B155B004D48D1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DFE449F32B3D9F8C00F19F9C /* Hotel */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -269,6 +346,24 @@
 		DFD4D76B2B3B1798004D48D1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				DFE449FD2B3DB1A600F19F9C /* SF-Pro-Display-Black.otf */,
+				DFE449F82B3DB1A600F19F9C /* SF-Pro-Display-BlackItalic.otf */,
+				DFE449F62B3DB1A600F19F9C /* SF-Pro-Display-Bold.otf */,
+				DFE44A032B3DB1A600F19F9C /* SF-Pro-Display-BoldItalic.otf */,
+				DFE449FE2B3DB1A600F19F9C /* SF-Pro-Display-Heavy.otf */,
+				DFE449FA2B3DB1A600F19F9C /* SF-Pro-Display-HeavyItalic.otf */,
+				DFE449F92B3DB1A600F19F9C /* SF-Pro-Display-Light.otf */,
+				DFE44A042B3DB1A600F19F9C /* SF-Pro-Display-LightItalic.otf */,
+				DFE44A012B3DB1A600F19F9C /* SF-Pro-Display-Medium.otf */,
+				DFE44A022B3DB1A600F19F9C /* SF-Pro-Display-MediumItalic.otf */,
+				DFE449FB2B3DB1A600F19F9C /* SF-Pro-Display-Regular.otf */,
+				DFE449F72B3DB1A600F19F9C /* SF-Pro-Display-RegularItalic.otf */,
+				DFE44A052B3DB1A600F19F9C /* SF-Pro-Display-Semibold.otf */,
+				DFE449FC2B3DB1A600F19F9C /* SF-Pro-Display-SemiboldItalic.otf */,
+				DFE44A072B3DB1A600F19F9C /* SF-Pro-Display-Thin.otf */,
+				DFE44A062B3DB1A600F19F9C /* SF-Pro-Display-ThinItalic.otf */,
+				DFE449FF2B3DB1A600F19F9C /* SF-Pro-Display-Ultralight.otf */,
+				DFE44A002B3DB1A600F19F9C /* SF-Pro-Display-UltralightItalic.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -296,10 +391,75 @@
 			isa = PBXGroup;
 			children = (
 				DFE449A72B3B34B000F19F9C /* StudiqCore */,
-				DFE449AE2B3B370C00F19F9C /* StudiqUI */,
-				DFE449B12B3B373700F19F9C /* EMCustomPkg */,
+				DFE449B92B3B3DE200F19F9C /* StudiqUI */,
+				DFE449B82B3B3DD300F19F9C /* EMCustomPkg */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		DFE449D42B3C817300F19F9C /* HotelInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449D22B3C816D00F19F9C /* HotelInfoView.swift */,
+				DFE449D52B3C818200F19F9C /* HotelInfoView.xib */,
+			);
+			path = HotelInfoView;
+			sourceTree = "<group>";
+		};
+		DFE449D72B3C83C600F19F9C /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449D82B3C83D700F19F9C /* RatingView.swift */,
+				DFE449DA2B3C83E100F19F9C /* RatingView.xib */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		DFE449DC2B3C987D00F19F9C /* HotelFuturesView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449DD2B3C989300F19F9C /* HotelFuturesView.swift */,
+				DFE449DF2B3C98A100F19F9C /* HotelFuturesView.xib */,
+				DFE449E12B3C99BB00F19F9C /* HotelFutureItem.swift */,
+			);
+			path = HotelFuturesView;
+			sourceTree = "<group>";
+		};
+		DFE449E32B3CA98400F19F9C /* RoomSelect */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449EC2B3D9E7E00F19F9C /* RoomSelectViewCell */,
+				DFE449E42B3CA99D00F19F9C /* RoomSelectViewController.swift */,
+				DFE449E52B3CA99D00F19F9C /* RoomSelectViewController.xib */,
+			);
+			path = RoomSelect;
+			sourceTree = "<group>";
+		};
+		DFE449EC2B3D9E7E00F19F9C /* RoomSelectViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449ED2B3D9EC200F19F9C /* RoomSelectViewCell.xib */,
+				DFE449E82B3D9A9F00F19F9C /* RoomSelectViewCell.swift */,
+			);
+			path = RoomSelectViewCell;
+			sourceTree = "<group>";
+		};
+		DFE449F32B3D9F8C00F19F9C /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				DFE449EA2B3D9E0C00F19F9C /* RoomSelectListItem.swift */,
+				DFE449F42B3D9FA000F19F9C /* HotelItem.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		DFE44A1B2B3DC64600F19F9C /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				DFE44A1C2B3DC64600F19F9C /* BookingViewController.xib */,
+				DFE44A1D2B3DC64600F19F9C /* BookingViewController.swift */,
+			);
+			path = Booking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +482,7 @@
 			packageProductDependencies = (
 				DFE449A92B3B34EF00F19F9C /* StudiqCore */,
 				DFE449AF2B3B371900F19F9C /* StudiqUI */,
+				DFE449BF2B3B465700F19F9C /* EMCustomPkg */,
 			);
 			productName = "EM TestApp01";
 			productReference = DFD4D7182B3B12E3004D48D1 /* EM TestApp01.app */;
@@ -368,12 +529,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE449E72B3CA99D00F19F9C /* RoomSelectViewController.xib in Resources */,
+				DFE44A0B2B3DB1A600F19F9C /* SF-Pro-Display-Light.otf in Resources */,
 				DFD4D76E2B3B2750004D48D1 /* Localizable.strings in Resources */,
+				DFE44A082B3DB1A600F19F9C /* SF-Pro-Display-Bold.otf in Resources */,
+				DFE44A142B3DB1A600F19F9C /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				DFE44A092B3DB1A600F19F9C /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				DFE44A192B3DB1A600F19F9C /* SF-Pro-Display-Thin.otf in Resources */,
 				DFD4D7772B3B28B6004D48D1 /* SplashViewController.xib in Resources */,
+				DFE449EE2B3D9EC200F19F9C /* RoomSelectViewCell.xib in Resources */,
+				DFE44A122B3DB1A600F19F9C /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				DFD4D7282B3B12E5004D48D1 /* LaunchScreen.storyboard in Resources */,
 				DFD4D7252B3B12E5004D48D1 /* Assets.xcassets in Resources */,
+				DFE44A1E2B3DC64600F19F9C /* BookingViewController.xib in Resources */,
+				DFE44A112B3DB1A600F19F9C /* SF-Pro-Display-Ultralight.otf in Resources */,
 				DFD4D7232B3B12E3004D48D1 /* Main.storyboard in Resources */,
+				DFE44A132B3DB1A600F19F9C /* SF-Pro-Display-Medium.otf in Resources */,
+				DFE44A0A2B3DB1A600F19F9C /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				DFE44A172B3DB1A600F19F9C /* SF-Pro-Display-Semibold.otf in Resources */,
+				DFE44A152B3DB1A600F19F9C /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				DFE44A102B3DB1A600F19F9C /* SF-Pro-Display-Heavy.otf in Resources */,
+				DFE44A0F2B3DB1A600F19F9C /* SF-Pro-Display-Black.otf in Resources */,
+				DFE44A162B3DB1A600F19F9C /* SF-Pro-Display-LightItalic.otf in Resources */,
 				DFD4D75E2B3B15B5004D48D1 /* HomeViewController.xib in Resources */,
+				DFE449D62B3C818200F19F9C /* HotelInfoView.xib in Resources */,
+				DFE449DB2B3C83E100F19F9C /* RatingView.xib in Resources */,
+				DFE44A0E2B3DB1A600F19F9C /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				DFE44A182B3DB1A600F19F9C /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				DFE449E02B3C98A100F19F9C /* HotelFuturesView.xib in Resources */,
+				DFE44A0D2B3DB1A600F19F9C /* SF-Pro-Display-Regular.otf in Resources */,
+				DFE44A0C2B3DB1A600F19F9C /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,11 +594,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE449D92B3C83D700F19F9C /* RatingView.swift in Sources */,
 				DFD4D75D2B3B15B5004D48D1 /* HomeViewController.swift in Sources */,
 				DFD4D7592B3B157F004D48D1 /* UICustomResponder.swift in Sources */,
 				DFD4D71C2B3B12E3004D48D1 /* AppDelegate.swift in Sources */,
+				DFE449E22B3C99BB00F19F9C /* HotelFutureItem.swift in Sources */,
 				DFD4D7762B3B28B6004D48D1 /* SplashViewController.swift in Sources */,
+				DFE449C32B3B549E00F19F9C /* UIColor.swift in Sources */,
+				DFE449DE2B3C989300F19F9C /* HotelFuturesView.swift in Sources */,
+				DFE449D32B3C816D00F19F9C /* HotelInfoView.swift in Sources */,
+				DFE449E92B3D9A9F00F19F9C /* RoomSelectViewCell.swift in Sources */,
+				DFE44A1F2B3DC64600F19F9C /* BookingViewController.swift in Sources */,
 				DFD4D71E2B3B12E3004D48D1 /* SceneDelegate.swift in Sources */,
+				DFE449F52B3D9FA000F19F9C /* HotelItem.swift in Sources */,
+				DFE449EB2B3D9E0C00F19F9C /* RoomSelectListItem.swift in Sources */,
+				DFE449E62B3CA99D00F19F9C /* RoomSelectViewController.swift in Sources */,
 				DFE4499D2B3B2FE300F19F9C /* SplashAnimator.swift in Sources */,
 				DFE4499B2B3B2FC500F19F9C /* SplashPresenter.swift in Sources */,
 				DFD4D7602B3B15D2004D48D1 /* Config.swift in Sources */,
@@ -661,6 +856,10 @@
 		DFE449AF2B3B371900F19F9C /* StudiqUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = StudiqUI;
+		};
+		DFE449BF2B3B465700F19F9C /* EMCustomPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EMCustomPkg;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
