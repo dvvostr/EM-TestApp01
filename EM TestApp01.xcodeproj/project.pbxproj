@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9886F1B736CC6310EC6F334A /* Pods_EM_TestApp01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FC82F60064F8CD45698BF1 /* Pods_EM_TestApp01.framework */; };
+		DF1C2CEE2B3F26DB008802FC /* StudiqCore in Frameworks */ = {isa = PBXBuildFile; productRef = DF1C2CED2B3F26DB008802FC /* StudiqCore */; };
+		DF1C2CF12B3F2702008802FC /* StudiqUI in Frameworks */ = {isa = PBXBuildFile; productRef = DF1C2CF02B3F2702008802FC /* StudiqUI */; };
+		DF2141BA2B3F283A00FEAA7D /* EMCustomPkg in Frameworks */ = {isa = PBXBuildFile; productRef = DF2141B92B3F283A00FEAA7D /* EMCustomPkg */; };
 		DFD4D71C2B3B12E3004D48D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD4D71B2B3B12E3004D48D1 /* AppDelegate.swift */; };
 		DFD4D71E2B3B12E3004D48D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD4D71D2B3B12E3004D48D1 /* SceneDelegate.swift */; };
 		DFD4D7232B3B12E3004D48D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD4D7212B3B12E3004D48D1 /* Main.storyboard */; };
@@ -101,9 +104,6 @@
 		DFD4D7752B3B28B6004D48D1 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		DFE4499A2B3B2FC500F19F9C /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		DFE4499C2B3B2FE300F19F9C /* SplashAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimator.swift; sourceTree = "<group>"; };
-		DFE449A72B3B34B000F19F9C /* StudiqCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StudiqCore; path = ../../../../../iOS/Packages/Studiq.Core/StudiqCore; sourceTree = "<group>"; };
-		DFE449B82B3B3DD300F19F9C /* EMCustomPkg */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EMCustomPkg; path = ../../Packages/EMCustomPkg; sourceTree = "<group>"; };
-		DFE449B92B3B3DE200F19F9C /* StudiqUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StudiqUI; path = ../../../../../iOS/Packages/Studiq.UI/StudiqUI; sourceTree = "<group>"; };
 		DFE449C22B3B549E00F19F9C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DFE449D22B3C816D00F19F9C /* HotelInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelInfoView.swift; sourceTree = "<group>"; };
 		DFE449D52B3C818200F19F9C /* HotelInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelInfoView.xib; sourceTree = "<group>"; };
@@ -164,7 +164,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1C2CF12B3F2702008802FC /* StudiqUI in Frameworks */,
 				DFE449B02B3B371900F19F9C /* StudiqUI in Frameworks */,
+				DF2141BA2B3F283A00FEAA7D /* EMCustomPkg in Frameworks */,
+				DF1C2CEE2B3F26DB008802FC /* StudiqCore in Frameworks */,
 				9886F1B736CC6310EC6F334A /* Pods_EM_TestApp01.framework in Frameworks */,
 				DFE449C02B3B465700F19F9C /* EMCustomPkg in Frameworks */,
 				DFE449AA2B3B34EF00F19F9C /* StudiqCore in Frameworks */,
@@ -436,9 +439,6 @@
 		DFE4499E2B3B343C00F19F9C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				DFE449A72B3B34B000F19F9C /* StudiqCore */,
-				DFE449B92B3B3DE200F19F9C /* StudiqUI */,
-				DFE449B82B3B3DD300F19F9C /* EMCustomPkg */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -604,6 +604,9 @@
 				DFE449A92B3B34EF00F19F9C /* StudiqCore */,
 				DFE449AF2B3B371900F19F9C /* StudiqUI */,
 				DFE449BF2B3B465700F19F9C /* EMCustomPkg */,
+				DF1C2CED2B3F26DB008802FC /* StudiqCore */,
+				DF1C2CF02B3F2702008802FC /* StudiqUI */,
+				DF2141B92B3F283A00FEAA7D /* EMCustomPkg */,
 			);
 			productName = "EM TestApp01";
 			productReference = DFD4D7182B3B12E3004D48D1 /* EM TestApp01.app */;
@@ -635,6 +638,9 @@
 			);
 			mainGroup = DFD4D70F2B3B12E3004D48D1;
 			packageReferences = (
+				DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */,
+				DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */,
+				DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */,
 			);
 			productRefGroup = DFD4D7192B3B12E3004D48D1 /* Products */;
 			projectDirPath = "";
@@ -988,7 +994,49 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dvvostr/StudiqCore";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dvvostr/StudiqUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dvvostr/EMCustomPkg";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		DF1C2CED2B3F26DB008802FC /* StudiqCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */;
+			productName = StudiqCore;
+		};
+		DF1C2CF02B3F2702008802FC /* StudiqUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */;
+			productName = StudiqUI;
+		};
+		DF2141B92B3F283A00FEAA7D /* EMCustomPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */;
+			productName = EMCustomPkg;
+		};
 		DFE449A92B3B34EF00F19F9C /* StudiqCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = StudiqCore;

@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "emcustompkg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dvvostr/EMCustomPkg",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7c1da9a36682e25fe424ffeafc7859b5de35624c"
+      }
+    },
+    {
       "identity" : "imageslideshow",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zvonicek/ImageSlideshow",
@@ -50,8 +59,26 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
       "state" : {
-        "revision" : "e278c13e46e8d20c895c221e922c6ac6b72aaca9",
-        "version" : "5.18.7"
+        "revision" : "fd010e54231331fc19338f81c6d072cd9ace2825",
+        "version" : "5.18.8"
+      }
+    },
+    {
+      "identity" : "studiqcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dvvostr/StudiqCore",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a4d6b12f197a334834351991dcdee6cf45fbe9bd"
+      }
+    },
+    {
+      "identity" : "studiqui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dvvostr/StudiqUI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "89d99355fb376b2664a8fd6dd85954fbfcbd0400"
       }
     },
     {
