@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "BookingTouristList.layoutSubviews():BookingTouristList.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "UIView.getContraints(attributes:relations:isActive:):UIView.swift">
          <PersistentStrings>
             <PersistentString
@@ -58,10 +66,21 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in variable initialization expression of EMImageSlideShow.intPageControl:EMImageSlideShow.swift">
+      </ContextState>
+      <ContextState
          contextName = "ImageSlideshow.layoutPageControl():ImageSlideshow.swift">
          <PersistentStrings>
             <PersistentString
                value = "pageIndicatorView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookingTouristList.items.didset:BookingTouristList.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView?.collectionViewLayout.collectionViewContentSize">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

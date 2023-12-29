@@ -49,9 +49,7 @@ class BookingViewController: TitledBaseViewController {
         }
     }
     @IBOutlet public weak var viewBookingInfoHeightConstraint: NSLayoutConstraint?
-    @IBOutlet public weak var viewTouristList: BookingTouristList? {
-        didSet {}
-    }
+
     @IBOutlet public weak var viewTouristInfo1: TouristInfoView? {
         didSet {
             self.viewTouristInfo1?.labelCaption?.text = "Первый турист".localized
@@ -110,6 +108,8 @@ class BookingViewController: TitledBaseViewController {
             self.viewBookingTotal?.layer.masksToBounds = true
         }
     }
+    @IBOutlet public weak var viewBottomConstraint: NSLayoutConstraint?
+    
     
     override func setup() {
         super.setup()
@@ -152,5 +152,24 @@ class BookingViewController: TitledBaseViewController {
         UIView.animate(withDuration: 0.5) {
             self.view.layoutIfNeeded()
         }
+    }
+    override func keyboardEvent(duration: Double, options: UIView.AnimationOptions, bottomPosition: CGFloat) {
+        viewBottomConstraint?.constant = bottomPosition == 0 ? 0 : bottomPosition + 8
+        UIView.animate(
+            withDuration: 0.5,
+            animations: {
+                self.view.layoutIfNeeded()
+            }, completion: { result in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    self.scrollView?.delegate = bottomPosition != 0 ? self : nil
+                }
+            }
+        )
+    }
+}
+
+extension BookingViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.view.endEditing(true)
     }
 }

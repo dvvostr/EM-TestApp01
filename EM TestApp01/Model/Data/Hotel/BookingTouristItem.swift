@@ -21,7 +21,7 @@ import StudiqUI
         case passportNum = "passportNum"
         case passportDate = "passportDate"
     }
-    public required init(id: Int, name1: String?, name2: String?, bornDate: String?, citizenship: String?, passportNum: String?, passportDate: String?) {
+    public required init(id: Int, name1: String?, name2: String?, bornDate: String? = nil, citizenship: String? = nil, passportNum: String? = nil, passportDate: String? = nil) {
         super.init()
         self.id =  id
         self.name1 = name1

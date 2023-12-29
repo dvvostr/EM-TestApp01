@@ -18,11 +18,12 @@
                 <outlet property="viewBookingInfo" destination="eJP-f1-b3i" id="UKE-xX-UKV"/>
                 <outlet property="viewBookingInfoHeightConstraint" destination="K2P-CJ-Maa" id="VXn-jS-kpc"/>
                 <outlet property="viewBookingTotal" destination="Tnp-N8-kcL" id="CGM-mZ-H1K"/>
+                <outlet property="viewBottomConstraint" destination="a92-Ds-9qs" id="00c-26-gfA"/>
                 <outlet property="viewBuyerInfoHeightConstraint" destination="0Jb-LI-xq9" id="oFL-nm-h1G"/>
                 <outlet property="viewBuyerInfoView" destination="48j-xi-gNa" id="4Lz-Ve-ZGF"/>
                 <outlet property="viewHotelInfo" destination="Rek-Nc-NeE" id="dl9-E9-zjC"/>
                 <outlet property="viewHotelInfoHeightConstraint" destination="UVd-AM-P8B" id="Xai-nE-SqU"/>
-                <outlet property="viewTouristAdd" destination="PYz-dw-uZW" id="8eD-RQ-A5i"/>
+                <outlet property="viewTouristAdd" destination="PYz-dw-uZW" id="23N-Fs-yM4"/>
                 <outlet property="viewTouristInfo1" destination="Z25-qs-sva" id="4C5-HL-Xd3"/>
                 <outlet property="viewTouristInfo1HeightConstraint" destination="Vsp-zX-NEk" id="Lzi-Wh-JdK"/>
                 <outlet property="viewTouristInfo2" destination="lze-si-zXw" id="lvg-qv-nZa"/>

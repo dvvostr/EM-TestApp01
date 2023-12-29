@@ -1,10 +1,13 @@
 import UIKit
 import StudiqCore
 import StudiqUI
+import InputMask
 
 @IBDesignable
 
 public class TouristInfoView: CustomXibView {
+    private let maskPassNumInputListener = MaskedTextInputListener(primaryFormat: "[0000] [000000]")
+    private let maskDateInputListener = MaskedTextInputListener(primaryFormat: "[00]{.}[00]{.}[9900]")
     @IBOutlet public weak var conteinerView: UIView?
     @IBOutlet public weak var headerView: UIView?
     @IBOutlet public weak var bodyView: UIView?
@@ -30,15 +33,27 @@ public class TouristInfoView: CustomXibView {
     @IBOutlet private weak var inputTouristName2: UITextField?
 
     @IBOutlet private weak var viewBornDate: UIView?
-    @IBOutlet private weak var inputBornDate: UITextField?
+    @IBOutlet private weak var inputBornDate: UITextField? {
+        didSet {
+            inputBornDate?.delegate = maskDateInputListener
+        }
+    }
     
     @IBOutlet private weak var viewCitizenship: UIView?
     @IBOutlet private weak var inputCitizenship: UITextField?
     
     @IBOutlet private weak var viewPassportNum: UIView?
-    @IBOutlet private weak var inputPassportNum: UITextField?
+    @IBOutlet private weak var inputPassportNum: UITextField? {
+        didSet {
+            inputPassportNum?.delegate = maskPassNumInputListener
+        }
+    }
     
-    @IBOutlet private weak var viewPassportDate: UIView?
+    @IBOutlet private weak var viewPassportDate: UIView? {
+        didSet {
+            inputPassportdate?.delegate = maskDateInputListener
+        }
+    }
     @IBOutlet private weak var inputPassportdate: UITextField?
     @IBOutlet public weak var constraintBodyViewTop: NSLayoutConstraint?
     
@@ -80,13 +95,13 @@ public class TouristInfoView: CustomXibView {
         createView(view: viewTouristName2)
         createInputField(input: inputTouristName2, placeholder: nil, value: "Иванов".localized, keyboardType: .default)
         createView(view: viewBornDate)
-        createInputField(input: inputBornDate, placeholder: "Дата рождения".localized, value: nil, keyboardType: .default)
+        createInputField(input: inputBornDate, placeholder: "Дата рождения".localized, value: nil, keyboardType: .numberPad)
         createView(view: viewCitizenship)
         createInputField(input: inputCitizenship, placeholder: "Гражданство", value: nil, keyboardType: .default)
         createView(view: viewPassportDate)
-        createInputField(input: inputPassportdate, placeholder: "Срок действия загранпаспорта".localized, value: nil, keyboardType: .default)
+        createInputField(input: inputPassportdate, placeholder: "Срок действия загранпаспорта".localized, value: nil, keyboardType: .numberPad)
         createView(view: viewPassportNum)
-        createInputField(input: inputPassportNum, placeholder: "Номер загранпаспорта".localized, value: nil, keyboardType: .default)
+        createInputField(input: inputPassportNum, placeholder: "Номер загранпаспорта".localized, value: nil, keyboardType: .numberPad)
         buttonCaption?.normalBackgroundColor = UIColor.Preset.tint.withAlphaComponent(0.1)
         buttonCaption?.selectedBackgroundColor = UIColor.Preset.tint
         buttonCaption?.normalForegroundColor = UIColor.Preset.tint

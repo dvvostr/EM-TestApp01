@@ -13,13 +13,8 @@ public class TouristAddView: CustomXibView {
             self.labelCaption?.textColor = UIColor.Preset.text
         }
     }
-    @IBOutlet public weak var buttonCaption: UIButton? {
+    @IBOutlet public weak var buttonCaption: CustomButton? {
         didSet {
-            self.buttonCaption?.setImage(UIImage.Preset.plus)
-            self.buttonCaption?.backgroundColor = UIColor.Preset.tint.withAlphaComponent(0.1)
-            self.buttonCaption?.tintColor = UIColor.Preset.text
-            self.buttonCaption?.setBorderRadius(6.0)
-            self.buttonCaption?.addTarget(self, action: #selector(TouristAddView.handleButtonClick), for: UIControl.Event.touchUpInside)
         }
     }
     
@@ -34,6 +29,11 @@ public class TouristAddView: CustomXibView {
         super.setupView()
         self.backgroundColor = UIColor.Preset.background
         self.layer.cornerRadius = 15.0
+        self.buttonCaption?.setImage(UIImage.Preset.plus, for: .normal)
+        self.buttonCaption?.cornerRadius = 6.0
+        self.buttonCaption?.normalBorderColor = UIColor.clear
+        self.buttonCaption?.selectedBorderColor = UIColor.clear
+        self.buttonCaption?.addTarget(self, action: #selector(TouristAddView.handleButtonClick), for: UIControl.Event.touchUpInside)
     }
     
     private func invalidate() {

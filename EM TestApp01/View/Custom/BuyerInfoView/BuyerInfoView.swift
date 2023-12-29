@@ -1,10 +1,13 @@
 import UIKit
 import StudiqCore
 import StudiqUI
+import InputMask
 
 @IBDesignable
 
 public class BuyerInfoView: CustomXibView {
+    private let maskPhoneInputListener = MaskedTextInputListener(primaryFormat: "+7 ([000]) [000]-[00]-[00]")
+
     @IBOutlet public weak var conteinerView: UIView?
     @IBOutlet public weak var labelCaption: UILabel? {
         didSet {
@@ -33,6 +36,7 @@ public class BuyerInfoView: CustomXibView {
             self.inputPhone?.borderStyle = .none
             self.inputPhone?.font = Config.Fonts.Font(ofSize: 16.0)
             self.inputPhone?.keyboardType = .phonePad
+            self.inputPhone?.delegate = maskPhoneInputListener
             self.inputPhone?.text = "+7 (951) 555-99-00"
         }
     }
