@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9886F1B736CC6310EC6F334A /* Pods_EM_TestApp01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FC82F60064F8CD45698BF1 /* Pods_EM_TestApp01.framework */; };
-		DF1C2CEE2B3F26DB008802FC /* StudiqCore in Frameworks */ = {isa = PBXBuildFile; productRef = DF1C2CED2B3F26DB008802FC /* StudiqCore */; };
-		DF1C2CF12B3F2702008802FC /* StudiqUI in Frameworks */ = {isa = PBXBuildFile; productRef = DF1C2CF02B3F2702008802FC /* StudiqUI */; };
-		DF2141BA2B3F283A00FEAA7D /* EMCustomPkg in Frameworks */ = {isa = PBXBuildFile; productRef = DF2141B92B3F283A00FEAA7D /* EMCustomPkg */; };
+		DF1494C72B4D861B008B2D1C /* StudiqCore in Frameworks */ = {isa = PBXBuildFile; productRef = DF1494C62B4D861B008B2D1C /* StudiqCore */; };
+		DF1494CA2B4D86CF008B2D1C /* StudiqUI in Frameworks */ = {isa = PBXBuildFile; productRef = DF1494C92B4D86CF008B2D1C /* StudiqUI */; };
+		DF1494CD2B4D871C008B2D1C /* EMCustomPkg in Frameworks */ = {isa = PBXBuildFile; productRef = DF1494CC2B4D871C008B2D1C /* EMCustomPkg */; };
 		DFD4D71C2B3B12E3004D48D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD4D71B2B3B12E3004D48D1 /* AppDelegate.swift */; };
 		DFD4D71E2B3B12E3004D48D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD4D71D2B3B12E3004D48D1 /* SceneDelegate.swift */; };
 		DFD4D7232B3B12E3004D48D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD4D7212B3B12E3004D48D1 /* Main.storyboard */; };
@@ -164,10 +164,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1C2CF12B3F2702008802FC /* StudiqUI in Frameworks */,
+				DF1494CA2B4D86CF008B2D1C /* StudiqUI in Frameworks */,
 				DFE449B02B3B371900F19F9C /* StudiqUI in Frameworks */,
-				DF2141BA2B3F283A00FEAA7D /* EMCustomPkg in Frameworks */,
-				DF1C2CEE2B3F26DB008802FC /* StudiqCore in Frameworks */,
+				DF1494CD2B4D871C008B2D1C /* EMCustomPkg in Frameworks */,
+				DF1494C72B4D861B008B2D1C /* StudiqCore in Frameworks */,
 				9886F1B736CC6310EC6F334A /* Pods_EM_TestApp01.framework in Frameworks */,
 				DFE449C02B3B465700F19F9C /* EMCustomPkg in Frameworks */,
 				DFE449AA2B3B34EF00F19F9C /* StudiqCore in Frameworks */,
@@ -604,9 +604,9 @@
 				DFE449A92B3B34EF00F19F9C /* StudiqCore */,
 				DFE449AF2B3B371900F19F9C /* StudiqUI */,
 				DFE449BF2B3B465700F19F9C /* EMCustomPkg */,
-				DF1C2CED2B3F26DB008802FC /* StudiqCore */,
-				DF1C2CF02B3F2702008802FC /* StudiqUI */,
-				DF2141B92B3F283A00FEAA7D /* EMCustomPkg */,
+				DF1494C62B4D861B008B2D1C /* StudiqCore */,
+				DF1494C92B4D86CF008B2D1C /* StudiqUI */,
+				DF1494CC2B4D871C008B2D1C /* EMCustomPkg */,
 			);
 			productName = "EM TestApp01";
 			productReference = DFD4D7182B3B12E3004D48D1 /* EM TestApp01.app */;
@@ -638,9 +638,9 @@
 			);
 			mainGroup = DFD4D70F2B3B12E3004D48D1;
 			packageReferences = (
-				DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */,
-				DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */,
-				DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */,
+				DF1494C52B4D861B008B2D1C /* XCRemoteSwiftPackageReference "StudiqCore" */,
+				DF1494C82B4D86CF008B2D1C /* XCRemoteSwiftPackageReference "StudiqUI" */,
+				DF1494CB2B4D871C008B2D1C /* XCRemoteSwiftPackageReference "EMCustomPkg" */,
 			);
 			productRefGroup = DFD4D7192B3B12E3004D48D1 /* Products */;
 			projectDirPath = "";
@@ -995,7 +995,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */ = {
+		DF1494C52B4D861B008B2D1C /* XCRemoteSwiftPackageReference "StudiqCore" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dvvostr/StudiqCore";
 			requirement = {
@@ -1003,7 +1003,7 @@
 				kind = branch;
 			};
 		};
-		DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */ = {
+		DF1494C82B4D86CF008B2D1C /* XCRemoteSwiftPackageReference "StudiqUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dvvostr/StudiqUI";
 			requirement = {
@@ -1011,7 +1011,7 @@
 				kind = branch;
 			};
 		};
-		DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */ = {
+		DF1494CB2B4D871C008B2D1C /* XCRemoteSwiftPackageReference "EMCustomPkg" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dvvostr/EMCustomPkg";
 			requirement = {
@@ -1022,19 +1022,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DF1C2CED2B3F26DB008802FC /* StudiqCore */ = {
+		DF1494C62B4D861B008B2D1C /* StudiqCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DF1C2CEC2B3F26DB008802FC /* XCRemoteSwiftPackageReference "StudiqCore" */;
+			package = DF1494C52B4D861B008B2D1C /* XCRemoteSwiftPackageReference "StudiqCore" */;
 			productName = StudiqCore;
 		};
-		DF1C2CF02B3F2702008802FC /* StudiqUI */ = {
+		DF1494C92B4D86CF008B2D1C /* StudiqUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DF1C2CEF2B3F2702008802FC /* XCRemoteSwiftPackageReference "StudiqUI" */;
+			package = DF1494C82B4D86CF008B2D1C /* XCRemoteSwiftPackageReference "StudiqUI" */;
 			productName = StudiqUI;
 		};
-		DF2141B92B3F283A00FEAA7D /* EMCustomPkg */ = {
+		DF1494CC2B4D871C008B2D1C /* EMCustomPkg */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DF2141B82B3F283A00FEAA7D /* XCRemoteSwiftPackageReference "EMCustomPkg" */;
+			package = DF1494CB2B4D871C008B2D1C /* XCRemoteSwiftPackageReference "EMCustomPkg" */;
 			productName = EMCustomPkg;
 		};
 		DFE449A92B3B34EF00F19F9C /* StudiqCore */ = {

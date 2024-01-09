@@ -24,7 +24,7 @@
       "location" : "https://github.com/dvvostr/EMCustomPkg",
       "state" : {
         "branch" : "main",
-        "revision" : "7c1da9a36682e25fe424ffeafc7859b5de35624c"
+        "revision" : "e62b7d1ff34002bda3249a183c66887de33b188e"
       }
     },
     {
@@ -69,7 +69,7 @@
       "location" : "https://github.com/dvvostr/StudiqCore",
       "state" : {
         "branch" : "main",
-        "revision" : "a4d6b12f197a334834351991dcdee6cf45fbe9bd"
+        "revision" : "a5c1e319e67227f6e2d8fa25d92d263923d953c5"
       }
     },
     {
@@ -78,7 +78,7 @@
       "location" : "https://github.com/dvvostr/StudiqUI",
       "state" : {
         "branch" : "main",
-        "revision" : "89d99355fb376b2664a8fd6dd85954fbfcbd0400"
+        "revision" : "8601f945f6c79adb007e37e30e544d26dbb4f475"
       }
     },
     {

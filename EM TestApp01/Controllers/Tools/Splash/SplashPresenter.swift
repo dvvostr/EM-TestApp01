@@ -16,7 +16,12 @@ final class SplashPresenter: SplashPresenterDescription {
     }()
     func splashWindow(level: UIWindow.Level, rootViewController: SplashViewController?) -> UIWindow {
         let scene = Layout.keyWindow?.windowScene
-        let window = if let scene = scene { UIWindow(windowScene: scene) } else { UIWindow() }
+        let window: UIWindow
+        if let scene = scene {
+            window = UIWindow(windowScene: scene)
+        } else {
+            window = UIWindow()            
+        }
         window.frame = CGRect(x: 0,  y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         window.rootViewController = rootViewController
         window.windowLevel = level
